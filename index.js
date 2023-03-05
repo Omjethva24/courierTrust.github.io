@@ -94,7 +94,7 @@ function getxml(xml) {
             <p>${p2}</p>
             <p>${p3}</p>
                 <div class="price"><strong>Price: </strong>${price}</div>
-                <button class="ser-btn"><a href="">Book Now<span class="arr">&rarr;</span></a></button>
+                <button class="ser-btn"><a href="./index.html">Book Now<span class="arr">&rarr;</span></a></button>
             </div>
             <div class="sr-img-con">
                 <img src="${img}" alt="" srcset="">

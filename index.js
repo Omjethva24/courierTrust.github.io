@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $.ajax({
         type: "get",
-        url: "../Data.json",
+        url: "./Data.json",
         dataType: "json",
         success: getjson
     });
@@ -72,7 +72,7 @@ $(document).ready(function () {
 $(document).ready(function () {
     $.ajax({
         type: "get",
-        url: "../Data.xml",
+        url: "./Data.xml",
         dataType: "xml",
         success: getxml
     });

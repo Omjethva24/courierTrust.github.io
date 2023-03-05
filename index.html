@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./Css/home.css">
+    <title>CourierTrust!</title>
+</head>
+ <body>
+    <!-- ================================Header=================================  -->
+    <header class="header" id="header">
+        <div class="logo-container">
+            <h1>
+                 <!-- <img src="./images/logo3.jpg" class="logoImage" alt="" srcset=""> -->
+                <span class="span-logo"> C</span>T!
+            </h1>
+        </div>
+         <nav class="nav">
+            <ul class="navUl">
+                <li class="nav-list"><a href="">Home</a></li>
+                <li class="nav-list"><a href="./Service.html">Service</a></li>
+                <li class="nav-list"><a href="#track">Track</a></li>
+                <li class="nav-list"><a href="#fetures">About Us</a></li>
+                <li class="nav-list"><a href="#footer">Contact</a></li>
+                <li class="nav-list"><a href="#feedback">Feedback</a></li>
+             </ul>
+        </nav>
+         <button id="log">Log In</button>
+     </header>
+     <!-- ================================Home=================================  -->
+    <section id="Home">
+        <div class="home-left">
+            <h1>Welcome, <br> CourierTrust!</h1>
+            <p>Welcome to our courier service website! We are dedicated to providing fast, reliable, and affordable
+                courier services to meet all your shipping needs. Whether you need to send documents, parcels, or
+                freight, we have a wide range of delivery options to choose from. Our user-friendly website allows you
+                to easily book your shipment online and track your package in real-time. <br>Thank You..!</p>
+            <button class="home-btn"><a href="#services"> Book Now <span class="arr">&rarr;</span> </a></button>
+        </div>
+        <div class="home-right">
+             <div class="img1 hrimg"><img src="./images/home-img-1.jpg" width="110%" alt="" srcset=""></div>
+            <div class="img2 hrimg"><img src="./images/home-img-2.jpg" width="110%" alt="" srcset=""></div>
+            <div class="img3 hrimg"><img src="./images/home-img-4.webp" width="110%" alt="" srcset=""></div>
+            <div class="img4 hrimg"><img src="./images/home-img-5.jpg" width="110%" alt="" srcset=""></div>
+            <div class="img5 hrimg"><img src="./images/home-img-3.jpg" width="110%" alt=""srcset=""></div>
+            <div class="img6 hrimg"><img src="./images/home-img-6.jpg" width="110%" alt=""srcset=""></div>
+         </div>
+    </section>
+     <!-- ================================services=================================  -->
+    <section id="services">
+         <div class="service-header">
+            <h1>Our Services</h1>
+            <!-- This Data is come from Data.json -->
+        </div>
+     </section>
+    <!-- ================================Feature=================================  -->
+    <section id="fetures">
+        <div class="ftr-h1">
+            <h1>Why Chosse CourierTrust ?</h1>
+        </div>
+        <div class="col-1">
+            <img class="ftr-img img-1" src="./images/fast-delivery.png" width="5%" alt="">
+            <p class="ftr-p"><strong>FAST </strong> <br> At CourierTrust,<br> we understand the importance of <br> fast
+                deliveryin today's fast-paced world. </p>
+        </div>
+        <div class="col-1">
+            <img class="ftr-img img-2" src="./images/quality.png" alt="">
+            <p class="ftr-p"><strong>SAFE </strong><br>At CourierTrust, <br>we know that Safe deliveryis <br>crucial to
+                our
+                customers. </p>
+         </div>
+        <div class="col-1">
+            <img class="ftr-img img-3" src="./images/low-cost.png" alt="">
+            <p class="ftr-p"><strong>LOW COST </strong><br>At CourierTrust,<br> we understand that Low costis a major
+                <br>consideration
+                for our customers. </p>
+         </div>
+    </section>
+    <!-- ================================Track=================================  -->
+    <section id="track">
+         <div class="track-left">
+            <h2>Track Your Orders Easily</h2>
+            <p>Just enter your AWB tracking number or Order ID & it's done. </p>
+            <img src="./images/track-img.png" alt="" srcset="">
+         </div>
+         <div class="track-right">
+            <form action="#" method="get">
+                 <!-- <h1 class="track-head">Track your Order</h1> -->
+                <div class="input">
+                    <strong>Track By: </strong>
+                    <div class="input-option-1 inputt">
+                        <input type="radio" id="mn" name="input-option" value="mobile">
+                        <label for="mn">Mobile Number</label>
+                    </div>
+                    <div class="input-option-2 inputt">
+                        <input type="radio" id="ti" name="input-option" value="track">
+                        <label for="ti">AWA No.</label>
+                    </div>
+                 </div>
+                <div class="input-text-container">
+                    <strong>Enter Details:</strong><br>
+                    <input type="text" class="input-text" value="" placeholder="Enter Mobile Number">
+                     <input type="button" class="otp" value="GET OTP & TRACK"></input>
+                </div>
+                <div>
+                     <h3>Can't Find Your Order Details?</h3>
+                    <p>We sent your AWB tracking number to you via Email & SMS upon order confirmation.</p>
+                </div>
+             </form>
+        </div>
+    </section>
+    <!-- ===================================feedback============================== -->
+    <section id="feedback">
+         <div class="fedb-left">
+            <form class="fedb-form" id="myform" onsubmit="return validate();">
+                <h1>FeedBack</h1>
+                <div class="input_field">
+                    <input type="text" placeholder="First Name" id="fname" required>
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Last Name" id="lname" required>
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Phone" id="phone" required>
+                </div>
+                <div class="input_field">
+                    <input type="text" placeholder="Email" id="email" required>
+                </div>
+                <div class="input_field">
+                    <textarea placeholder="Your Feedback" id="yourfeedback" required></textarea>
+                </div>
+                <div class="btn">
+                    <input type="submit">
+                </div>
+            </form>
+        </div>
+        <div class="fedb-right">
+            <div class=""><img src="./images/feedback.jpg" width="110%" alt=""
+                    srcset=""></div>
+        </div>
+    </section>
+    <!-- =====================================footer============================== -->
+    <footer id="footer">
+        <div class="col-1">
+            <ul class="menu">
+                <h3>Menu Links</h3>
+                <li><a href=""><span>&rarr; </span>Home</a></li>
+                <li><a href=""><span>&rarr; </span>Services</a></li>
+                <li><a href=""><span>&rarr; </span>Track</a></li>
+                <li><a href=""><span>&rarr; </span>About Us</a></li>
+                <li><a href=""><span>&rarr; </span>Feedback</a></li>
+                <li><a href=""><span>&rarr; </span>Sign In</a></li>
+            </ul>
+        </div>
+        <div class="col-2">
+            <ul class="support">
+                <h3>Others Links</h3>
+                <li><a href=""><span>&rarr; </span>Privecy Policy</a></li>
+                <li><a href=""><span>&rarr; </span>Therms & </a></li>
+                <li><a href=""><span>&rarr; </span>conditions</a></li>
+                <li><a href=""><span>&rarr; </span>FAQs</a></li>
+                <li><a href=""><span>&rarr; </span>Returns Order</a></li>
+                <li><a href=""><span>&rarr; </span>Join Us</a></li>
+            </ul>
+        </div>
+        <div class="col-3">
+            <ul class="contact">
+                <h3>Contacts Informations</h3>
+                <li><a href=""><strong>Address </strong> </a>
+                <li>
+                    <p href="">Sutex Bank Of Collage,<br> Near Jalaram Mandir,<br> Amroli, Surat, Indis.</p>
+                </li>
+                </li>
+                 <li><a href=""><strong>Mobile No. </strong> </a>
+                <li>
+                    <p href="">+91 99966 87269</p>
+                </li>
+                </li>
+                 <li><a href=""><strong>Email </strong> </a>
+                <li><a href=""><a href="">courierTrust@gmail.com</a></li>
+                </li>
+             </ul>
+        </div>
+        <div class="col-4">
+            <ul>
+                <li>
+                    <h3>Subscribe </h3>
+                </li>
+                <p>Don't miss to subscribe to our new feeds,<br> kindly fill the form below.</p>
+                <li class="email-con">
+                    <input type="email" placeholder="Enter your Email" name="" id="">
+                    <button><img src="./images/social medea/email-send.png" alt="" srcset=""></button>
+                </li>
+                <li class="followus">
+                    <h3>Follow Us </h3>
+                </li>
+                <ul class="fotr-sm-ul">
+                    <li><img src="./images/social medea/facebook.png" alt=""></li>
+                    <li><img src="./images/social medea/instagram.png" alt=""></li>
+                    <li><img src="./images/social medea/twitter.png" alt=""></li>
+                    <li><img src="./images/social medea/telegram.png" alt=""></li>
+                </ul>
+            </ul>
+         </div>
+        <div class="col-5">
+            <p>©Copyright 2023 All Rights Reserved | Designd And Devloped By courierTrist.</p>
+        </div>
+    </footer>
+    <!-- ========== Start log in ========== -->
+    <div class="log-in-cont" id="log">
+        <form id="log-in" action="post">
+            <h2 class="log-h1">Log In</h2>
+            <div>
+                <label for="email">Email Id</label><br>
+                <input type="email" name="" id="email"><br>
+            </div>
+            <div>
+                 <label for="pass">Password</label><br>
+                <input type="password" name="" id="pass"><br>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="check">Remammber Me</label><br>
+            </div>
+             <input type="submit" value="Log In">
+            <p class="dontacc">Don't have an account?</p>
+        </form>
+        <!-- ========== End log-in ========== -->
+        <!-- ========== Start signup ========== -->
+        <form id="sign-up" class="dis-none" action="./index.html" onsubmit="return validateform()">
+            <h2 class="log-h1">Sign Up</h2>
+            <div>
+                <label for="name">Name</label><br>
+                <input type="text" name="" id="name" required><br>
+            </div>
+            <div>
+                <label for="phone_no">Mobile No.</label><br>
+                <input type="text" name="" id="phone_no" required><br>
+            </div>
+            <div>
+                <label for="email">Email Id</label><br>
+                <input type="email" name="" id="email" required><br>
+            </div>
+            <div>
+                 <label for="pass">Password</label><br>
+                <input type="password" name="" id="pass" required><br>
+            </div>
+            <div>
+                 <label for="cpass">Confirm Password</label><br>
+                <input type="password" name="" id="cpass" required><br>
+            </div>
+            <div>
+                <input type="checkbox" name="" id="">
+                <label for="check">Remammber Me</label><br>
+            </div>
+             <input type="submit" value="Sign Up">
+            <p class="dontacc">already have an account?</p>
+        </form>
+    </div>
+    <!-- ========== End log in ========== -->
+    <div class="top-btn-container">
+        <button class="top-btn">↑</button>
+    </div>
+    <script src="./jquery-3.6.2.min.js"></script>
+    <script src="./index.js"></script>
+ </body>
+ </html>

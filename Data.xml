@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<sr-row>
+    <row>
+        <title>International Courier</title>
+        <p>At CourierTrust, we offer international courier
+            services to our clients who need to send their packages to any part of the world. We
+            understand the importance of timely delivery, and that's why we strive to provide efficient
+            and reliable services. With our network of trusted partners and years of experience in the
+            industry, we can deliver your package safely and on time.</p>
+        <p2>Our international courier services cover a wide range of packages, including documents,
+            parcels, and cargo. We use the latest technology to track your package in real-time,
+            ensuring that you are aware of its location throughout its journey. We also provide customs
+            clearance assistance, making the process easier for you and ensuring that your package
+            arrives at its destination without any delays or additional charges.</p2>
+        <p3> At CourierTrust, we understand that every package is unique and may require special
+            handling or packaging. That's why we offer customized solutions to meet your specific needs,
+            including express delivery, door-to-door delivery, and packaging services. </p3>
+        <price>2000/kgRs.</price>s <img>./images/card-1-photo.jpg</img>
+    </row>
+
+    <row>
+        <title>Truckload courier</title>
+        <p>Our truckload courier service is the perfect solution for customers who need to
+            transport large amounts of goods or materials across long distances. With our modern
+            fleet of trucks and experienced drivers, we can ensure that your cargo will arrive
+            safely and on time. We offer flexible scheduling options and competitive pricing to meet
+            your needs and budget.</p>
+        <p2>Our team of professionals will work closely with you to determine the best routing and
+            delivery options for your shipment. We understand that every customer has unique
+            requirements and we strive to tailor our services to meet those needs. We also provide
+            real-time tracking of your shipment so that you can stay informed about its location and
+            delivery status.</p2>
+        <p3> At CourierTrust, we pride ourselves on providing exceptional customer service and
+            support. Our friendly and knowledgeable staff is available to answer your questions and
+            provide assistance throughout the entire shipping process. we are committed to
+            delivering the highest level of service and reliability to our customers.</p3>
+        <price>1000/kg Rs.</price>
+        <img>./images/card-2-img.jpg</img>
+    </row>
+
+    <row>
+        <title>Normal Courier</title>
+        <p>Normal courier is a reliable and cost-effective option for sending documents and small
+            packages within a city or across the country. With our Normal courier service, you can
+            enjoy a hassle-free delivery experience, as we handle everything from pick-up to
+            delivery.</p>
+        <p2>Our Normal courier service is perfect for individuals and businesses who need to send
+            important documents or small items, such as contracts, agreements, letters, or samples.
+            We understand the importance of time-sensitive deliveries, which is why we always
+            prioritize timely delivery and provide real-time tracking information to our customers.</p2>
+        <p3>At courierTrust, we pride ourselves on our commitment to providing excellent customer
+            service, and our Normal courier service is no exception. Our team of experienced
+            professionals ensures that every delivery is handled with care and attention to detail,
+            so you can have peace of mind knowing that your package is in good hands. Trust us to
+            deliver your packages on time and with the utmost care!</p3>
+        <price>200/kg Rs.</price>
+        <button></button>
+        <img>./images/card-3-img.jpg</img>
+    </row>
+</sr-row>
